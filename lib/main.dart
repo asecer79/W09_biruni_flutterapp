@@ -5,6 +5,7 @@ import 'package:flutter_application_1/popupmenu.dart';
 import 'package:flutter_application_1/snackbarpage.dart';
 
 import 'dropdownbutton.dart';
+import 'formPage.dart';
 import 'gesturepage.dart';
 
 void main(List<String> args) {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: PopupMenuPage(),
+      home: FormPage(),
     );
   }
 }
